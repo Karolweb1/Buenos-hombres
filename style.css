@@ -38,11 +38,11 @@ div {
 }
 
 /* el ultimo codigo para una misma tareaes el que se toma como unico*/
-/*Especifidad*/
+/*Especifidad
 
 div span {
 color: green;
-}
+}*/
 
 span {
     color: brown;
