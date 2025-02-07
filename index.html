@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     
+
+    <!--CSS-->
+    <link rel="stylesheet" href="style.css">
+
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
+    
+    <title> Debate serio </title>
+
+</head>
+<body>
+
+    <div>
+        <p>Div</p>
+        <span>Responder esto con seriedad</span>
+    </div>
+    <h1 class="Titulos"> Debate acerca de los buenos hombres </h1>
+    <p> Depende de lo que consideres un "buen hombre" y de dónde estés buscando. Algunos consejos:
+
+        Intereses comunes: Lugares donde hagas actividades que disfrutes, como clubes de lectura, clases de cocina, deportes, o voluntariado, suelen atraer personas con valores afines.
+        Eventos sociales: Reuniones de amigos, bodas, eventos culturales, o ferias pueden ser buenos para conocer gente en un ambiente relajado.
+        Entornos profesionales o académicos: Redes de trabajo, conferencias o cursos pueden conectar personas con objetivos similares.
+        Apps de citas: Si se usan con criterio, pueden ser efectivas para encontrar personas con intereses y valores compatibles.
+        Pero lo más importante es que estés en espacios donde te sientas auténtica. ¿Buscas algún tipo de consejo específico?
+    
+        Acaso a esto se refería la hada madrina en shrek?</p>
+
+    <h2 class="Titulos"> Opciones </h2>
+
+    <a href=""></a>
+    <img src="" alt="">
+
+    <!--Esta lista ordenada, es el paso a paso de la forma de cocinar de nuestra cena-->
+    
+    <ol> 
+        <li> INTERESES COMUNES: LUGARES </li>
+        <li> EVENTOS SOCIALES: REUNIONES</li>
+        <li> APPS DE CITAS: TINDER, BUMBLE, ETC. </li>
+    </ol>
+
+  
+    <!--Enlace absoluto-->
+    <!-- <a href="https://google.com"> Prensa </a> -->
+
+
+    <!---Enlaces relativos
+    <a href="servicios.html"> Ver servicios </a>-->
+
+    <!---Enlaces internos | El id se crea con el simbolo # seguido del nombre de la sección
+    <a href="#Testimonios"> Testimonios </a> -->
+
+
+
+    <section id="donde">
+        <p>Ahora si... Donde estan los fokin buenos hombres?</p>
+    </section>
+
+     <!---videos-->
+    <div> 
+        <iframe width="1400" height="315" src="https://www.youtube.com/embed/XC0hrfpV_6M" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="videobuenos"></iframe>
+    </div>   
+
+    <!---audio
+    <audio src="mensaje.mp3" controls></audio>-->
+
+     <!---Tablas | para armar e-mails-->
+
+     <table> <!---Contenedoras de tabla
+        <tr>  <!---Definen una fila
+            <th> Nombre </th>  ---encabezados
+            <th> Ciudad </th>
+            <th> Edad </th> 
+        </tr>  
+        <tr>    
+            <td> Niko34 </td>   -Las celdas
+            <td> Buenos Aires </td>
+            <td> 34 </td>
+        </tr>
+     </table>-->
+
+      <!---Formularios-->
+      <p>
+        Si eres hombre, responde el siguiente cuestionario
+      </p>
+        
+        <form action="/submit" method="post">  <!---Etiqueta contenedora-->
+        <label for="">Nombre</label>
+        <input type="text", name="nombre" id="nombre">
+
+        <!--- <label for=""> Contraseña </label>
+        <input type="password", name="password" id="password">--->
+
+        <label for=""> Comenta por qué eres un buen hombre</label>
+        <textarea name="mensaje", id="mensaje"> </textarea>
+
+        <label for="género"> Género </label>
+        <input type="radio", name="", id="">
+        <label for=""> Hombre </label>
+
+        <input type="radio", name="", id="">
+        <label for=""> Mujer </label>
+
+        <input type="radio", name="", id="">
+        <label for=""> Otro </label>
+
+        <!-- <label for="suscribe"> Suscribirse </label>
+        <input type="checkbox" name="" id=""> -->
+
+        <label for="pais"> País </label>
+        <select class="options"  name="" id="">
+                <option value="">México</option>
+                <option value="">Argentina</option>
+                <option value="">Uruguay</option>
+                <option value="">Otro</option>
+        </select>
+
+        <input type="submit" value="enviar">
+
+
+</body>
+</html>
