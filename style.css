@@ -1,0 +1,171 @@
+/*Reset de CSS*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Selector + propiedad + valor 
+
+Selector {
+propiedad: valor
+}
+
+*/
+p { 
+    /*color: rgb(112, 112, 182);*/
+    /* nombre de color, hexadecimal, rgb y rgba */
+    /*color: #b2d6b2;*/
+    /*color:rgb(0, 0, 255)*/
+    color:rgba(65, 31, 110, 0.589);
+    font-size: 30px; 
+    /*font-size unidades de medida | px, em, rem, % */   
+    margin: 20px;
+}
+
+h1 {
+text-align: center;
+font-size: 30px; 
+color: rgb(96, 45, 129);
+}
+
+body {
+background-color: rgb(255, 214, 233);
+}
+
+div { 
+    color: rgb(89, 173, 103);
+}
+
+/* el ultimo codigo para una misma tareaes el que se toma como unico*/
+/*Especifidad
+
+div span {
+color: green;
+}*/
+
+span {
+    color: brown;
+}
+ /* Aqui como el div span era el mas específico, se toma ese codigo como unico */
+
+ .Titulos {
+    text-decoration: underline;
+}
+
+ #Testimonios {
+    text-align: center;
+    text-decoration: underline;
+    
+}
+
+.titulo-servicios {
+    color: rgb(139, 21, 130);
+    text-transform: uppercase;
+    font-size: 24px; /*Absoluta*/
+    font-family: "Lobster", serif;
+    font-weight: lighter;
+    
+}
+
+.parrafo-servicios {
+    color: rgb(214, 63, 151);
+    font-family: "Tangerine", serif;
+    font-size: 1em; /*Relativo | al tamaño de fuente del elemento padre | Rem es relativo al tamaño de la fuente del elemento raiz*/
+    font-weight: bold;
+}
+.videobuenos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Esto hace que el video esté centrado en la pantalla */
+        
+}
+
+ol {
+    color:rgba(121, 59, 202, 0.589);
+    font-size: 25px; 
+    margin: 50px;
+}
+
+h2 {
+    color: rgb(139, 21, 130);
+    text-transform: uppercase;
+    font-size: 24px; /*Absoluta*/
+    font-family: "Lobster", serif;
+    font-weight: lighter;
+}
+
+label {
+    color: rgb(139, 21, 130);
+    text-transform: uppercase;
+    font-size: 24px; 
+    font-family: "Lobster", serif;
+    font-weight: lighter;
+}
+
+select {
+    color: rgb(139, 21, 130);
+    text-transform: uppercase;
+    font-size: 10px; 
+    font-family: "Lobster", serif;
+    font-weight: lighter;
+}
+
+input {
+    font-size: 20px
+}
+
+.options {
+    font-size: 20px
+}
+/* Diseño responsivo para dispositivos móviles */
+@media (max-width: 768px) {
+    body {
+        background-color: rgb(255, 240, 245); /* Color más suave para móviles */
+        padding: 10px;
+    }
+
+    .container {
+        max-width: 100%;
+        padding: 10px;
+    }
+
+    h1, h2 {
+        font-size: 20px; /* Reducir el tamaño del texto */
+        text-align: center;
+    }
+
+    p {
+        font-size: 18px;
+        margin: 10px 0;
+        text-align: justify;
+    }
+
+    ol {
+        font-size: 18px;
+        margin: 20px;
+        padding-left: 20px;
+    }
+
+    iframe {
+        width: 100%;  /* Adaptar el video al ancho de la pantalla */
+        height: auto;
+    }
+
+    input, textarea, select {
+        width: 100%;  /* Hacer que los formularios ocupen todo el ancho */
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    label {
+        font-size: 18px;
+    }
+
+    .videobuenos {
+        display: block;
+        height: auto;
+        margin: 0 auto;
+    }
+}
