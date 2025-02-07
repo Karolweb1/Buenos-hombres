@@ -129,6 +129,10 @@ input {
 .options {
     font-size: 20px
 }
+.enviar-boton {
+    color: rgb(0, 0, 0);
+}
+
 /* Diseño responsivo para dispositivos móviles */
 @media (max-width: 768px) {
     body {
