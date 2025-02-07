@@ -82,7 +82,6 @@ span {
         
 }
 
-
 ol {
     color:rgba(121, 59, 202, 0.589);
     font-size: 25px; 
@@ -114,6 +113,10 @@ select {
 }
 
 input {
+    font-size: 20px
+}
+
+.options {
     font-size: 20px
 }
 
