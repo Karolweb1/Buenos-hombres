@@ -179,7 +179,20 @@ input {
         height: auto;
         margin: 0 auto;
     }
-    .enviar-boton {
-    color: rgb(0, 0, 0);
+    input[type="submit"] {
+    background-color: black;  /* Fondo negro */
+    color: white;             /* Texto en color blanco para contrastar */
+    border: none;             /* Eliminar borde predeterminado */
+    padding: 10px 20px;       /* Espaciado interno para un mejor diseño */
+    font-size: 18px;          /* Tamaño de fuente más legible */
+    cursor: pointer;          /* Cambiar el cursor al pasar el mouse */
+    border-radius: 8px;       /* Bordes redondeados para un estilo más moderno */
+    transition: background-color 0.3s ease;  /* Animación suave al pasar el mouse */
+}
+
+/* Efecto al pasar el mouse por encima */
+input[type="submit"]:hover {
+    background-color: #333;  /* Un gris más claro para el efecto hover */
+}
 }
 }
